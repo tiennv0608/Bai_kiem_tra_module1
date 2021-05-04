@@ -1,4 +1,4 @@
-function solveProblem(a,b) {
+function giaiPhuongTrinhBacNhat(a,b) {
     let result;
     if (a == 0) {
         if (b == 0) {
