@@ -8,5 +8,5 @@ function checkNumberInArray(number,arr) {
     if (result.length == 0) {
         result = "Không tìm được vị trí của số trong mảng!";
     }
-    return "Vị trí của số cần tìm là: "+ result;
+    return result;
 }
