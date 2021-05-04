@@ -12,6 +12,7 @@
     for (let i=0;i<lengthArr;i++) {
         array.push(Math.round(Math.random()*100));
     }
+    console.log(array);
     let num =+prompt("Nhập số cần tìm: ");
     let results = checkNumberInArray(num,array);
     document.write(results);
